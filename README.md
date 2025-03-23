@@ -7,6 +7,6 @@ Required library:
 Required module:
 * sys
 
-Note: anchors.py needs an argument to run, "office1" or "office2", e.g., `python3 anchors.py office1` (Linux) or `python anchors.py office1` (Windows).
+*Note*: anchors.py needs an argument to run, "office1" or "office2", e.g., `python3 anchors.py office1` (Linux) or `python anchors.py office1` (Windows).
 
 (Practice projects as part of the packt course “YAML Fundamentals for DevOps, Cloud and IaC Engineers”.)
