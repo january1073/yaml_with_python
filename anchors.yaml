@@ -1,0 +1,35 @@
+# Multiple anchors to shorten & simplify the YAML documents
+---
+dc_eu_west: &dc_eu_west
+  city: "Amsterdam"
+  country: "The Netherlands"
+
+dc_eu_east: &dc_eu_east
+  city: "Riga"
+  country: "Latvia"
+
+fortinet: &fortinet
+  make: "Fortinet"
+  model: "FortiGate 6000F"
+  fw_throughput: Up to 760 Gbps
+  tp_throughput: Up to 640 Gbps
+  release_year: 2018
+
+check_point: &check_point
+  make: "Check Point"
+  model: "Quantum 6500"
+  fw_throughput: Up to 15 Gbps
+  tp_throughput: Up to 9 Gbps
+  release_year: 2019
+
+office1:
+  <<: *dc_eu_west
+  <<: *check_point
+  staged_year: 2020
+  note: "office1"
+
+office2:
+  <<: *dc_eu_east
+  <<: *fortinet
+  staged_year: 2019
+  note: "office2"

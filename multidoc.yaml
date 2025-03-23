@@ -1,0 +1,20 @@
+# Multiple YAML documents in one file
+---
+name: Felicia Hardy
+character: Black Cat
+age: 30
+city: New York City
+superpowers:
+  - enhanced agility
+  - reflexes
+  - probability manipulation (bad luck powers)
+...
+---
+name: Aaron Davis
+character: The Prowler
+age: 35
+city: Brooklyn
+superpowers:
+  - expert fighter
+  - advanced tech suit
+...
