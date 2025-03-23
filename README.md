@@ -9,4 +9,4 @@ Required module:
 
 Note: anchors.py needs an argument to run, "office1" or "office2", e.g., `python3 anchors.py office1`.
 
-Practice projects as part of the <packt> course “YAML Fundamentals for DevOps, Cloud and IaC Engineers”.
+(Practice projects as part of the <packt> course “YAML Fundamentals for DevOps, Cloud and IaC Engineers”.)
