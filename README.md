@@ -1,8 +1,12 @@
 # yaml_with_python
-Extracting YAML documents with Python.
+Extract YAML documents with Python.
 
-Required libraries:
+Required library:
+* YAML
 
+Required module:
+* sys
 
+Note: anchors.py needs an argument to run, "office1" or "office2", e.g., `python3 anchors.py office1`.
 
-Practice projects as part of the IBM course “Python for Data Science, AI, & Development”.
+Practice projects as part of the <packt> course “YAML Fundamentals for DevOps, Cloud and IaC Engineers”.
