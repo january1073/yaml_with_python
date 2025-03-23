@@ -1,5 +1,5 @@
 # yaml_with_python
-Extract YAML documents with Python.
+Parse, extract, and print YAML documents with Python.
 
 Required library:
 * YAML
