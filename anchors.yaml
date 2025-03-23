@@ -1,4 +1,4 @@
-# Multiple anchors to shorten & simplify the YAML documents
+# Multiple anchors
 ---
 dc_eu_west: &dc_eu_west
   city: "Amsterdam"
